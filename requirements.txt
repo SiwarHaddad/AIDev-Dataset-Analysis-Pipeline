@@ -1,0 +1,25 @@
+# AIDev Dataset Analysis Pipeline Requirements
+# Python 3.8+
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Statistical analysis
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Dataset loading
+pyarrow>=12.0.0  # Required for parquet files
+huggingface_hub>=0.16.0  # For dataset access
+
+# Optional but recommended
+jupyter>=1.0.0  # For notebook execution
+notebook>=6.5.0  # Jupyter notebook interface
+
+# Development tools (optional)
+ipython>=8.12.0
