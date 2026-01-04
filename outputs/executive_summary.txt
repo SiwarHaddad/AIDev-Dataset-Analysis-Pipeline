@@ -1,0 +1,40 @@
+======================================================================
+AIDEV RESEARCH ANALYSIS - EXECUTIVE SUMMARY
+======================================================================
+Generated: 2026-01-04 00:23:41
+
+DATASET SUMMARY
+----------------------------------------------------------------------
+Total PRs: 13,582
+Agent PRs: 7,333 (54.0%)
+Human PRs: 6,249 (46.0%)
+Repositories: 870
+Languages: 51
+
+
+KEY FINDINGS
+----------------------------------------------------------------------
+
+[RQ1] Structural Code Quality:
+  • Agent median LOC: 103 vs Human: 0
+  • Agent median files: 3 vs Human: 0
+  • Agent test inclusion: 44.2% vs Human: 0.0%
+
+[RQ2] Maintenance Effort:
+  • Agent acceptance: 55.8% vs Human: 77.6%
+  • Agent review time: 4.1h vs Human: 5.6h
+ • Agent review activity: 2.0 vs Human: 0.0
+
+[RQ3] Success Predictors:
+  • See feature importance CSV for detailed rankings
+  • Model accuracy: See RQ3 results
+
+======================================================================
+RECOMMENDATIONS
+======================================================================
+1. Developers should focus on test inclusion when using AI agents
+2. Review processes need adaptation for AI-generated code
+3. AI agents excel at documentation but need improvement in complex tasks
+4. Tool designers should optimize for acceptance, not just speed
+
+======================================================================
